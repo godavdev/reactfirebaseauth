@@ -13,19 +13,19 @@ import { Toaster } from './components/ui/toaster'
 
 const router = createBrowserRouter([
   {
-    path: "/authtest/", //localhost:3000/
+    path: "/reactfirebaseauth/", //localhost:3000/
     element: <PrivateRoute><App /></PrivateRoute>
   },
   {
-    path: "/authtest/login", //localhost:3000/login
+    path: "/reactfirebaseauth/login", //localhost:3000/login
     element: <PrivateRoute authentication={false}><LoginRoute /></PrivateRoute>
   },
   {
-    path: "/authtest/signup", //localhost:3000/signup
+    path: "/reactfirebaseauth/signup", //localhost:3000/signup
     element: <PrivateRoute authentication={false}><SignupRoute /></PrivateRoute>
   },
   {
-    path: "/authtest/resetPassword", //localhost:3000/signup
+    path: "/reactfirebaseauth/resetPassword", //localhost:3000/signup
     element: <PrivateRoute authentication={false}><ResetPasswordRoute /></PrivateRoute>
   }
 ])

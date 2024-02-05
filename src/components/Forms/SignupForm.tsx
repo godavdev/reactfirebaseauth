@@ -93,7 +93,7 @@ const SignupForm = () => {
                     )}
                 />
                 <div className=" flex w-full justify-between">
-                    <Button onClick={() => navigate("/authtest/login")} variant={"ghost"}>Login</Button>
+                    <Button onClick={() => navigate("/reactfirebaseauth/login")} variant={"ghost"}>Login</Button>
                     {loading ?
                         <Button disabled type="submit">
                             <ReloadIcon className="animate-spin mr-2" />

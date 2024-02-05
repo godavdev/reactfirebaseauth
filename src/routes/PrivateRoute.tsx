@@ -6,11 +6,11 @@ const PrivateRoute = ({ children, authentication = true }: { children: ReactNode
     const { user } = useAuth()
 
     if (!authentication) {
-        if (user) return <Navigate to="/authtest/"/>
+        if (user) return <Navigate to="/reactfirebaseauth/"/>
         return children
     }
 
-    if (!user) return <Navigate to="/authtest/login"/>
+    if (!user) return <Navigate to="/reactfirebaseauth/login"/>
     return children
 }
 

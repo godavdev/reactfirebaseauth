@@ -67,7 +67,7 @@ const ResetPasswordForm = () => {
                     )}
                 />
                 <div className='flex w-full justify-between'>
-                    <Button variant={'ghost'} onClick={() => navigate("/authtest/login")}>Back</Button>
+                    <Button variant={'ghost'} onClick={() => navigate("/reactfirebaseauth/login")}>Back</Button>
                     {loading ?
                         <Button className='flex' disabled type='submit'>
                             <ReloadIcon className='mr-2 animate-spin' />
