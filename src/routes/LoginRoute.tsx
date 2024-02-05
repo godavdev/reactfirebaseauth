@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const LoginRoute = () => {
     return (
-        <div className="flex w-full h-dvh items-center justify-center">
+        <div className="flex w-full h-dvh items-center justify-center p-4">
             <Card className="w-full max-w-sm">
                 <CardHeader>
                     <CardTitle className="text-xl">Log In</CardTitle>

@@ -16,7 +16,7 @@ const App = () => {
     }, [])
 
     return (
-        <div className="flex w-full h-dvh items-center justify-center">
+        <div className="flex w-full h-dvh items-center justify-center p-4">
             <Card className="w-full max-w-sm">
                 <CardHeader>
                     <CardTitle>Welcome!</CardTitle>
