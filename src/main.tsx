@@ -13,19 +13,19 @@ import { Toaster } from './components/ui/toaster'
 
 const router = createBrowserRouter([
   {
-    path: "/", //localhost:3000/
+    path: "/authtest/", //localhost:3000/
     element: <PrivateRoute><App /></PrivateRoute>
   },
   {
-    path: "/login", //localhost:3000/login
+    path: "/authtest/login", //localhost:3000/login
     element: <PrivateRoute authentication={false}><LoginRoute /></PrivateRoute>
   },
   {
-    path: "/signup", //localhost:3000/signup
+    path: "/authtest/signup", //localhost:3000/signup
     element: <PrivateRoute authentication={false}><SignupRoute /></PrivateRoute>
   },
   {
-    path: "/resetPassword", //localhost:3000/signup
+    path: "/authtest/resetPassword", //localhost:3000/signup
     element: <PrivateRoute authentication={false}><ResetPasswordRoute /></PrivateRoute>
   }
 ])

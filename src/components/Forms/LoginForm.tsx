@@ -95,12 +95,12 @@ const LoginForm = () => {
                             )}
                         />
                         <Button asChild variant={"link"} className="text-xs px-0">
-                            <Link to={"/resetPassword"}>Reset password</Link>
+                            <Link to={"/authtest/resetPassword"}>Reset password</Link>
                         </Button>
                     </div>
                 </div>
                 <div className=" flex w-full justify-between">
-                    <Button onClick={() => navigate("/signup")} variant={"ghost"}>Signup</Button>
+                    <Button onClick={() => navigate("/authtest/signup")} variant={"ghost"}>Signup</Button>
                     {loading ?
                         <Button disabled type="submit">
                             <ReloadIcon className="animate-spin mr-2" />
